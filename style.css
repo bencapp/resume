@@ -19,6 +19,7 @@ body {
   grid-template-areas:
     "header header"
     "skills main";
+  background-color: var(--color1);
 }
 
 h2,
