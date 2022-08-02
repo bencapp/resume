@@ -78,7 +78,6 @@ header {
 /* formatting for contact info and skills section */
 #left-wrapper {
   grid-area: skills;
-  height: 100%;
   background-color: var(--color2);
   font-size: small;
   padding: 12px;
@@ -110,7 +109,6 @@ header {
 /* formatting for main section */
 main {
   grid-area: main;
-  min-height: calc(100vh - 50px);
   background-color: var(--color3);
   display: grid;
   grid-template-columns: 1fr 1fr;
